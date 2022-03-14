@@ -1,0 +1,156 @@
+  {% include "app/header.html" %}
+{% load static %}
+<main id="main" data-aos="fade-in" class="aos-init aos-animate">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <h1 align="center"><i>our</i>&nbsp;<b><font color="red">COURSES</font></b></h1>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Courses Section ======= -->
+    <section id="Courses" class="courses">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img width="400px"  src="{% static 'img/c1.jpg' %}" class="img-fluid" alt="...">
+              <div class="course-content">
+                 <br/>
+                <div>
+
+                  <h2><a href="{% url 'c' %}"> C Language</a></h2>
+                  <br/>
+
+                </div>
+
+
+                <p>C is a general-purpose, procedural computer programming language supporting structured programming,</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+
+
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img width="400px" src="{% static 'img/python2.jpg' %}" class="img-fluid" alt="...">
+              <div class="course-content">
+                <br/>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h2><a href="{% url 'python' %}"> Python Language</a></h2>
+
+                </div>
+
+
+                <p>Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img width="400px"  src="{% static 'img/java1.jpg' %}" class="img-fluid" alt="...">
+              <div class="course-content">
+                <br/>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h2><a href="{% url 'java' %}">Java Language</a></h2>
+
+                </div>
+
+
+                <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+
+
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+        </div>
+
+      </div>
+    </section><!-- End Courses Section -->
+
+
+  <section id="courses1" class="courses">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img width="600px" height="420" src="{% static 'img/html1.jpg' %}" class="img-fluid" alt="...">
+              <div class="course-content">
+                <br/>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h2><a href="{% url 'HTML' %}"> HTML Language</a></h2>
+
+                </div>
+
+                <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+
+
+
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img width="600px" height="420" src="{% static 'img/css1.jpg' %}" class="img-fluid" alt="...">
+              <div class="course-content">
+                <br/>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h2><a href="{% url 'Css' %}">CSS Language</a></h2>
+
+                </div>
+
+
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+
+
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img width="600px" height="420" src="{% static 'img/c++.jpg' %}" class="img-fluid" alt="...">
+              <div class="course-content">
+                <br/>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h2><a href="">C++ Language</a></h2>
+
+                </div>
+
+
+                <p>C++ is a cross-platform language that can be used to create high-performance applications. C++ was developed by Bjarne Stroustrup, as an extension to the C language. </p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+
+
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  {% include "app/footer.html" %}
